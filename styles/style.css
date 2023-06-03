@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/fondo.webp);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  margin: 100px auto 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255, .3);
+  max-width: 400px;
+  height: 100%;
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(40px);
+}
+
+.login-header img {
+  width: 340px;
+  height: 100%;
+}
+
+.btn-login {
+  background: #eb3d01;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 40px;
+  margin: 50px auto 30px auto;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.btn-login ion-icon {
+  font-size: 15px;
+}
+
+.imgs-comu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-com {
+  height: 71px;
+  border-radius: 15px;
+}
+
+.redes-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.redes-social ion-icon {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.redes-social ion-icon:hover {
+  color: var(--crl);
+}
+
+.footer {
+  color: #ffffff;
+  font-size: 15px;
+  max-width: 500px;
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  .footer {
+    max-width: 300px;
+  }
+}
